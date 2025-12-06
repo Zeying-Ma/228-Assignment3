@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Main St. Local Kitchen</title>
 
-<!-- google fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -19,6 +18,14 @@
       
       h1{
         font-family: 'Quicksand', sans-serif;
+      }
+      
+      .home-link {
+        text-decoration: none;
+        color: black;
+      }
+      .home-link:hover {
+        opacity: 0.8;
       }
       
       .content-container{
@@ -218,12 +225,14 @@
     </style>
   </head>
   
-  <body>
+  <body id="top">
     <div class="content-container">
       
       <header>
         <div class="header-inner">
-          <h1 class="site-title">Main St. Local Kitchen</h1>
+          <h1 class="site-title">
+            <a href="#top" class="home-link">Main St. Local Kitchen</a>
+          </h1>
           
           <nav>
             <ul>
@@ -269,7 +278,9 @@
       </div>
       
       <div class="footer-navigation">
-        <div class="footer-title">Main St. Local Kitchen</div>
+        <div class="footer-title">
+          <a href="#top" class="home-link">Main St. Local Kitchen</a>
+        </div>
         
         <div class="footer-links">
            <a href="#menu">Menu</a>

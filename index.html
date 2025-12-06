@@ -3,16 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>Main St. Local Kitchen</title>
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     
     <style>
       body{
         margin: 0;
         padding: 0;
         background-color: gray;
-         font-family: Arial, sans-serif;
+        font-family: 'Nunito', sans-serif;
       }
       
-      .center-content{
+      h1{
+        font-family: 'Quicksand', sans-serif;
+      }
+      
+      .content-container{
         width: 1200px;
         margin: 0 auto;
         background-color: white;
@@ -20,11 +29,92 @@
         padding: 20px;
         box-sizing: border-box;
       }
+      
+      header{
+        padding: 1rem 2rem;
+        border-bottom: 1px solid #E0E0E0;
+      }
+      .header-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      .site-title{
+        font-size: 1.8rem;
+        letter-spacing: 0.05rem;
+        font-family: 'Quicksand', sans-serif
+      }
+      .site-content{
+        font-size: 1.8rem;
+        letter-spacing: 0.05em;
+      }
+      
+      nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+        display: flex;
+        gap: 2rem;
+        line-height: 1.6;
+      }
+      nav a{
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+        
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1em;
+      line-height: 1.6;  
+      }
+      nav a:hover {
+      text-decoration: underline;
+    }
+      
+      main{
+        padding: 2rem;
+        font-size: 1em;
+      }
+      
+      section{
+        margin-bottom: 4rem;
+      }
+      
     </style>
   </head>
   
   <body>
-    <div class=".center-content">
+    <div class=".content-container">
+      
+      <header>
+        <div class="header-inner">
+          <h1 class="site-title">Main St. Local Kitchen</h1>
+          
+          <nav>
+            <ul>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#Catering">Catering</a></li>
+              <li><a href="#Location">Location</a></li>
+              <li><a href="#About Us">About Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+      <main>
+        <section id="menu">
+        </section>
+        
+        <section id="catering">
+        </section>
+        
+        <section id="location">
+        </section>
+        
+        <section id="about us">
+        </section>
+      </main>
       
     </div>
   </body>

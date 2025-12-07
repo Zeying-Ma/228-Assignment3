@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8">
+  <title>Main St. Local Kitchen – About Us</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      font-family: "Nunito", sans-serif;
+    }
+
+    h1, h2{
+      font-family: "Quicksand", sans-serif;
+    }
+
+    .home-link{
+      text-decoration: none;
+      color: black;
+    }
+
+    .content-container{
+      width: 1200px;
+      margin: 0 auto;
+      background-color: #F9F9F9;
+      min-height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    header{
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #E0E0E0;
+    }
+    .header-inner{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-title{
+      font-size: 1.8rem;
+      letter-spacing: 0.05rem;
+      font-family: "Quicksand", sans-serif;
+    }
+
+    nav ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 2rem;
+    }
+    nav a{
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-family: "Nunito", sans-serif;
+      font-size: 1em;
+    }
+    nav a:hover{
+      text-decoration: underline;
+    }
+
+    main{
+      padding: 4rem 2rem;
+    }
+
+    /* --- About Content --- */
+    .about-wrapper{
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    .about-title{
+      font-family: "Quicksand", sans-serif;
+      font-size: 2.2em;
+      font-weight: 700;
+      margin-bottom: 1.5em;
+    }
+
+    .about-text{
+      font-family: "Nunito", sans-serif;
+      font-size: 1.1em;
+      margin-bottom: 1.5em;
+      color: #333;
+    }
+
+    .footer-navigation{
+      width: 1000px;
+      margin: 3rem auto 0 auto;
+      padding: 40px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footer-title{
+      font-family: "Quicksand", sans-serif;
+      font-size: 1.8rem;
+      letter-spacing: 0.05rem;
+      font-weight: 600;
+      margin-bottom: 1em;
+    }
+    .footer-links{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      gap: 12px 40px;
+    }
+    .footer-links a{
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      text-decoration: underline;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-container">
+
+    <!-- HEADER -->
+    <header>
+      <div class="header-inner">
+        <h1 class="site-title">
+          <a href="index.html" class="home-link">Main St. Local Kitchen</a>
+        </h1>
+
+        <nav>
+          <ul>
+            <li><a href="index.html#menu">Menu</a></li>
+            <li><a href="index.html#catering">Catering</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- MAIN ABOUT CONTENT -->
+    <main>
+      <div class="about-wrapper">
+
+        <h2 class="about-title">Our Story</h2>
+
+        <p class="about-text">
+          Main St. Local Kitchen was founded with one goal in mind — to bring people together around good food. 
+          From locally sourced ingredients to a warm and welcoming atmosphere, our restaurant is built on the 
+          idea that sharing a meal is sharing a moment.
+        </p>
+
+        <p class="about-text">
+          Our team is passionate about creating dishes that feel familiar yet exciting, honoring the best of 
+          Ontario’s produce while exploring flavors from around the world.
+        </p>
+
+        <p class="about-text">
+          Whether you're here for a quick lunch, a cozy dinner, or a celebration with friends, we’re grateful 
+          to be part of your table.
+        </p>
+
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <div class="footer-navigation">
+      <div class="footer-title">
+        <a href="index.html" class="home-link">Main St. Local Kitchen</a>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html#menu">Menu</a>
+        <a href="index.html#catering">Catering</a>
+        <a href="location.html">Location</a>
+        <a href="about.html">About Us</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

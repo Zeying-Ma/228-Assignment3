@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-CA">
 <head>
   <meta charset="UTF-8">
-  <title>Location - Main St. Local Kitchen</title>
+  <title>Main St. Local Kitchen – Location</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    h1{
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .home-link{
+      text-decoration: none;
+      color: black;
+    }
+    .home-link:hover{
+      opacity: 0.8;
+    }
+
+    .content-container{
+      width: 1200px;
+      margin: 0 auto;
+      background-color: #F9F9F9;
+      min-height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    header{
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #E0E0E0;
+    }
+    .header-inner{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-title{
+      font-size: 1.8rem;
+      letter-spacing: 0.05rem;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    nav ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 2rem;
+      line-height: 1.6;
+    }
+    nav a{
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    nav a:hover{
+      text-decoration: underline;
+    }
+
+    main{
+      padding: 2rem;
+    }
+
+    h2{
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1.8rem;
+      margin-top: 0;
+    }
+
+    .location-information{
+      max-width: 800px;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Location Page</h1>
-  <p>This is the location page.</p>
+  <div class="content-container">
+
+    <header>
+      <div class="header-inner">
+        <h1 class="site-title">
+          <a href="index.html" class="home-link">Main St. Local Kitchen</a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html#menu">Menu</a></li>
+            <li><a href="index.html#catering">Catering</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="index.html#about-us">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
+      <h2>Find Us</h2>
+      <div class="location-information">
+      </div>
+    </main>
+
+  </div>
 </body>
 </html>

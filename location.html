@@ -81,6 +81,7 @@
 
     .location-information{
       max-width: 800px;
+      margin: 4rem auto;
       text-align: center;
     }
     .location-address{
@@ -105,6 +106,34 @@
     }
     .location-link:hover{
       opacity: 0.8;
+    }
+
+    .footer-navigation{
+      width: 1000px;
+      margin: 3rem auto 0 auto;
+      padding: 40px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footer-title{
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1.8rem;
+      letter-spacing: 0.05rem;
+      font-weight: 600;
+      margin-bottom: 1em;
+    }
+    .footer-links{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      gap: 12px 40px;
+    }
+    .footer-links a{
+      font-family: "Nunito", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      text-decoration: underline;
+      color: black;
     }
   </style>
 </head>
@@ -147,6 +176,18 @@
         </p>
       </div>
     </main>
+
+    <div class="footer-navigation">
+      <div class="footer-title">
+        <a href="index.html" class="home-link">Main St. Local Kitchen</a>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html#menu">Menu</a>
+        <a href="index.html#catering">Catering</a>
+        <a href="location.html">Location</a>
+        <a href="index.html#about-us">About Us</a>
+      </div>
 
   </div>
 </body>

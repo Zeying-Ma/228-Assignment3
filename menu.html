@@ -77,11 +77,47 @@
       font-weight: 700;
       margin-bottom: 1em;
     }
-    .menu-intorduction{
+    .menu-introduction{
       font-size: 1.1em;
       max-width: 800px;
       margin: 0 auto 2em auto;
       line-height: 1.7;
+    }
+    .menu-section{
+      max-width: 900px;
+      margin: 0 auto 3em auto;
+      text-align: left;
+    }
+    .menu-section-title{
+      font-family: "Quicksand", sans-serif;
+      font-size: 1em;
+      font-weight: 700;
+      margin-bottom: 1.2em;
+      text-align: center;
+    }
+    .menu-item{
+      margin-bottom: 1.2em;
+    }
+    .menu-item-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25em;
+    }
+    .menu-item-name{
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      font-size: 1.1em;
+    }
+    .menu-item-price{
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+      font-size: 1.1em;
+    }
+    .menu-item-description{
+      font-family: "Nunito", sans-serif;
+      font-size: 1em;
+      line-height: 1.6;
     }
 
     .footer-navigation{
@@ -137,8 +173,64 @@
         From brunch classics to seasonal dishes, our menu is crafted with fresh, local ingredients.
         Explore our chef’s favourites below.
       </p>
-
       
+      <section class="menu-section" id="brunch">
+        <h3 class="menu-section-title">Brunch Favourites</h3>
+
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Avocado Toast</span>
+            <span class="menu-item-price">$14.50</span>
+          </div>
+          <p class="menu-item-description">
+            Grilled sourdough topped with smashed avocado, cherry tomatoes and a soft-poached egg.
+          </p>
+        </div>
+        
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Local Benny</span>
+            <span class="menu-item-price">$17.95</span>
+          </div> 
+          <p class="menu-item-description">
+            Two poached eggs, peameal bacon and hollandaise on toasted English muffins with homefries.
+          </p>
+        </div>
+        
+        <div class="menu-item">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Berry Pancakes</span>
+            <span class="menu-item-price">$15.25</span>
+          </div>          
+          <p class="menu-item-description">
+            Stack of fluffy pancakes with seasonal berries, maple syrup and whipped cream. 
+          </p>
+        </div>
+
+        <section class="menu-section" id="drinks">
+          <h3 class="menu-section-title">Coffee &amp; Drinks</h3>
+
+          <div class="menu-item">
+          <div class="menu-item-header">
+            <span class="menu-item-name">House Brew Coffee</span>
+            <span class="menu-item-price">$3.25</span>
+          </div>
+          <p class="menu-item-description">
+            Freshly brewed, locally roasted coffee, bottomless while you dine in.
+          </p>
+        </div>
+
+          <div class="menu-item">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Fresh Orange Juice</span>
+            <span class="menu-item-price">$4.75</span>
+          </div>
+          <p class="menu-item-description">
+            Cold-pressed orange juice made to order.
+          </p>
+        </div>
+        
+      </section>
 
     </main>
 
